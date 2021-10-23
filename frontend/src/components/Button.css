@@ -1,6 +1,6 @@
 .button {
     padding: 12px 26px;
-    border: solid 1px var(--cotton-candy);
+    border: 3px solid var(--celeste);
     background-color: var(--cotton-candy);
     font-size: 14px;
     border-radius: 18px;

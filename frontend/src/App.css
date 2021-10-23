@@ -14,30 +14,14 @@
   --mint-cream: hsla(173, 33%, 95%, 1);
   --piggy-pink: hsla(342, 67%, 90%, 1);
   --cotton-candy: hsla(330, 70%, 83%, 1);
-}
 
-.App {
-  text-align: center;
-  background-color: var(--mint-cream);
-  height: 2000px;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  --font-gray-1: rgba(83, 83, 83, 0.849);
 }
 
 .header {
   height: 60px;
   width: 100%;
-  border-bottom: 1px solid var(--celeste);
-  box-shadow: 0 19px 38px rgb(0 0 0 / 30%), -2px 5px 12px rgb(0 0 0 / 22%);
+  box-shadow: -1px 1px 10px rgb(0 0 0 / 30%), 0px 2px 12px rgb(0 0 0 / 22%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,15 +42,7 @@
   font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.swappanel__container {
+  display: flex;
+  justify-content: center;
 }
