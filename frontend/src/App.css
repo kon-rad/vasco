@@ -1,0 +1,72 @@
+:root {
+  /* https://coolors.co/826aed-c879ff-ffb7ff-3bf4fb-caff8a */
+  /* CSS HSL */
+  --medium-slate-blue: hsla(251, 78%, 67%, 1);
+  --heliotrope: hsla(275, 100%, 74%, 1);
+  --mauve: hsla(300, 100%, 86%, 1);
+  --aqua: hsla(182, 96%, 61%, 1);
+  --mindaro: hsla(87, 100%, 77%, 1);
+
+  /* https://coolors.co/7bdff2-b2f7ef-eff7f6-f7d6e0-f2b5d4 */
+  /* CSS HSL */
+  --sky-blue-crayola: hsla(190, 82%, 72%, 1);
+  --celeste: hsla(173, 81%, 83%, 1);
+  --mint-cream: hsla(173, 33%, 95%, 1);
+  --piggy-pink: hsla(342, 67%, 90%, 1);
+  --cotton-candy: hsla(330, 70%, 83%, 1);
+}
+
+.App {
+  text-align: center;
+  background-color: var(--mint-cream);
+  height: 2000px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid var(--celeste);
+  box-shadow: 0 19px 38px rgb(0 0 0 / 30%), -2px 5px 12px rgb(0 0 0 / 22%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__titles {
+  display: flex;
+  align-items: center;
+}
+.header__button {
+  margin-right: 40px;
+}
+.header h1 {
+  margin: 10px 40px;
+}
+
+.header h3 {
+  margin: 10px 40px;
+  font-size: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
