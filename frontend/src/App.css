@@ -38,7 +38,8 @@
   margin-right: 40px;
 }
 .header h1 {
-  margin: 10px 40px;
+  margin: 10px 40px 10px 10px;
+  color: var(--medium-slate-blue);
 }
 
 .header h3 {
@@ -54,4 +55,14 @@
   display: flex;
   justify-content: center;
   margin-top: 60px;
+}
+.header__logo {
+  height: 40px; 
+  margin-left: 40px;
+  color: var(--medium-slate-blue);
+}
+.Logo {
+  height: 40px; 
+  margin-left: 40px;
+  color: var(--medium-slate-blue);
 }

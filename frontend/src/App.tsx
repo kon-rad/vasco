@@ -4,6 +4,8 @@ import './App.css';
 import SwapPanel from './components/SwapPanel';
 import NFTPreview from './components/NFTPreview';
 import Wallet from './components/Wallet';
+import logo from './images/logo.svg';
+import Logo from './components/Logo';
 
 const getLibrary = (provider: ExternalProvider): Web3Provider => {
   return new Web3Provider(provider);
@@ -15,6 +17,8 @@ function App() {
       <div className='App'>
         <header className='header'>
           <div className='header__titles'>
+            {/* <img src={logo} alt="" className="header__logo" /> */}
+            <Logo />
             <h1>Vasco</h1>
             <h3>{`Ethereum <-> Avalanche NFT Bridge`}</h3>
           </div>
