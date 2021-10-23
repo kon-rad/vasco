@@ -7,6 +7,7 @@
     margin-top: 0;
     padding: 20px 30px;
     box-shadow: var(--shadow-1);
+    color: var(--text);
 }
 .nftpreview__nft {
     height: 140px;
@@ -16,4 +17,5 @@
 .nftpreview h3 {
     margin: 0;
     margin-bottom: 18px;
+    color: var(--text);
 }

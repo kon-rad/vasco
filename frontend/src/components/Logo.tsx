@@ -1,7 +1,7 @@
 const Logo = () => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" className="Logo" version="1.0" height="40px" viewBox="0 0 233.000000 148.000000" >
-            <g transform="translate(0.000000,148.000000) scale(0.100000,-0.100000)" fill="#8169ec" stroke="none">
+            <g transform="translate(0.000000,148.000000) scale(0.100000,-0.100000)" fill="#383838" stroke="none">
                 <path d="M755 1225 c-9 -82 2 -664 14 -715 7 -27 10 -6 12 85 4 176 -2 560 -10 635 l-7 65 -9 -70z"/>
                 <path d="M1197 1206 c-15 -170 -4 -787 14 -726 9 33 10 702 0 760 -7 44 -7 43 -14 -34z"/>
                 <path d="M1571 1110 c-1 -189 16 -533 29 -590 12 -54 12 261 -1 489 -16 276 -27 315 -28 101z"/>

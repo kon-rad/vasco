@@ -18,6 +18,9 @@
     display: flex;
     flex-direction: column;
 }
+.swappanel__sub h3 {
+  color: var(--text);
+}
 .swappanel__switch {
     display: flex;
     justify-content: center;

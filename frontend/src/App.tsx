@@ -14,7 +14,7 @@ const getLibrary = (provider: ExternalProvider): Web3Provider => {
 function App() {
   return (
     <Web3ReactProvider getLibrary={getLibrary}>
-      <div className='App'>
+      <div className='app'>
         <header className='header'>
           <div className='header__titles'>
             {/* <img src={logo} alt="" className="header__logo" /> */}
