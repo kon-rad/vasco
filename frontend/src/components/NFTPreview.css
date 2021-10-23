@@ -1,0 +1,19 @@
+.nftpreview {
+    border: 3px solid var(--celeste);
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    width: 700px;
+    margin-top: 0;
+    padding: 20px 30px;
+    box-shadow: var(--shadow-1);
+}
+.nftpreview__nft {
+    height: 140px;
+    width: 100%;
+    overflow-x: auto;
+}
+.nftpreview h3 {
+    margin: 0;
+    margin-bottom: 18px;
+}

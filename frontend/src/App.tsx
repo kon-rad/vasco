@@ -21,7 +21,7 @@ function App() {
           <SwapPanel />
         </div>
         <div className="preview__container">
-          <NFTPreview />
+          <NFTPreview nfts={[{ sup: 'hey' }]}/>
         </div>
       </div>
     </div>
