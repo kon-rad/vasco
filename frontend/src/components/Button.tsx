@@ -1,12 +1,16 @@
 import './Button.css';
 
 type Props = {
-    children: any,
-    onClick: any
-}
+  children: any;
+  onClick: any;
+};
 
 const Button = (props: Props) => {
-    return <div className='button'>{props.children}</div>
-}
+  return (
+    <button onClick={props.onClick} className='button'>
+      {props.children}
+    </button>
+  );
+};
 
 export default Button;
