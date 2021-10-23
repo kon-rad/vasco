@@ -20,6 +20,7 @@
 }
 .swappanel__sub h3 {
   color: var(--text);
+  margin: 6px 0 12px;
 }
 .swappanel__switch {
     display: flex;
@@ -39,4 +40,12 @@
 }
 .swappanel__img:active {
     margin-top: 2px;
+}
+.swappanel__logo {
+    height: 30px;
+    margin-right: 10px;
+}
+.swappanel__direction {
+    display: flex;
+    align-items: center;
 }
