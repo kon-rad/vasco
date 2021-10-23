@@ -6,3 +6,6 @@
     cursor: pointer;
     border: none;
 }
+.button:active {
+    margin-top: 2px;
+}

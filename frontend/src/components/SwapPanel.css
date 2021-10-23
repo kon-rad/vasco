@@ -26,4 +26,14 @@
 .swappanel__img {
     width: 40px;
     cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.swappanel__img:hover {
+    background-color: #80808029;
+    border-radius: 4px;
+    padding: 5px;
+    transition: background-color 0.5s ease;
+}
+.swappanel__img:active {
+    margin-top: 2px;
 }
