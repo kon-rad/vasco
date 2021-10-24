@@ -1,12 +1,14 @@
 import NFTPreview from "./NFTPreview";
+import './Card.css';
 
 type Props = {
     nft: any,
     handleSelect: any,
+    isSelected: boolean,
 }
 
 const Card = (props: Props) => {
-    const { nft, handleSelect } = props;
+    const { nft, handleSelect, isSelected } = props;
     const getImageUrl = (image: string) => {
         if (!image) return '';
         if (image.match('https://')) {
@@ -16,7 +18,7 @@ const Card = (props: Props) => {
         return `https://ipfs.io/ipfs/${ipfsNum}`;
     }
     return (
-        <div className="card" onClick={() => handleSelect(nft?.tokenID, nft?.contract?.id)}>
+        <div className={`card ${isSelected ? 'active' : ''}`} onClick={() => handleSelect(nft?.tokenID, nft?.contract?.id, nft)}>
             <img src={getImageUrl(nft?.metadata?.image)} alt="" className="card__img" />
             <div className="card__body">
                 <div className="card__token">{nft?.tokenID}</div>
