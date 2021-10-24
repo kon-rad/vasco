@@ -4,7 +4,7 @@ Ethereum <> Avalanche bridge for NFTs, created for the [ETH Lisbon](https://www.
 
 ## Smart Contracts
 
-This frontend is designed to provide the interface to a (ChainSafe Chainbridge v2)[https://github.com/ChainSafe/chainbridge-core] adapted for ERC-721 (NFT) tokens.
+This frontend is designed to provide the interface to a [ChainSafe Chainbridge v2](https://github.com/ChainSafe/chainbridge-core) adapted for ERC-721 (NFT) tokens.
 
 ## Installation
 
