@@ -7,8 +7,9 @@
 }
 .card:hover {
     transition: background-color 0.5s ease;
-    margin-top: 2px;
+    /* margin-top: 2px; */
     cursor: pointer;
+    background-color: var(--mint-cream);
 }
 .card__img {
     width: 185px;

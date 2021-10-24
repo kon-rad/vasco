@@ -74,7 +74,7 @@ const NFTPreview = (props: Props) => {
           )
       }
       return (
-          <div className="nftpreview__body">
+          <div className="nftpreview__body nftpreview__body--selector">
                 <div className="nftpreview__top">
                 <h3>SELECT NFT</h3>
                 <div className="nftpreview__searchWrapper">

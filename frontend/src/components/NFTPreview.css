@@ -71,3 +71,6 @@
     color: var(--medium-slate-blue);
     margin-bottom: 18px;
 }
+.nftpreview__body--selector {
+    height: 480px;
+}
