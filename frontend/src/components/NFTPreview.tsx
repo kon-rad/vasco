@@ -2,12 +2,14 @@ import './NFTPreview.css';
 import { useEffect, useState } from 'react';
 import { useWeb3React } from '@web3-react/core';
 import { getNftsByOwner, getMetadata, addMetadata } from '../api';
-import { NftsByOwner } from '../types';
+import { NftsByOwner, Token } from '../types';
+import Card from './Card';
 
 type Props = {
   nfts: any[];
 };
 const NFTPreview = (props: Props) => {
+    const [selectedNft, setSelectedNft] = useState<Token | null>(null);
   const [nfts, setNfts] = useState<NftsByOwner | null>();
   const [nftsWithMetadata, setNftsWithMetadata] =
     useState<NftsByOwner | null>();
@@ -39,20 +41,18 @@ const NFTPreview = (props: Props) => {
     fetchMetadata();
   }, [nfts]);
 
-  console.log('nfts', nfts);
-  console.log('nftsWithMetadata', nftsWithMetadata);
+  const handleSelect = (tokenId: string, contractAddress: string) => {
+    console.log('selected: ', tokenId, contractAddress);
+  }
   const renderNft = (nft: any) => {
     return (
-      <div className='nftpreview__nft'>
-        Data here {JSON.stringify(nftsWithMetadata)}
-      </div>
+      <Card nft={nft} handleSelect={handleSelect}/>
     );
   };
   return (
     <div className='nftpreview'>
       <h3>select NFT</h3>
-      <div className='nftpreview__scroll'>{props.nfts.map(renderNft)}</div>
-      {JSON.stringify(nfts, null, 2)}
+      <div className='nftpreview__scroll'>{nftsWithMetadata ? nftsWithMetadata.tokens.map(renderNft) : ''}</div>
     </div>
   );
 };

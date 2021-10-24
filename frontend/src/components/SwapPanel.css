@@ -20,7 +20,7 @@
 }
 .swappanel__sub h3 {
   color: var(--text);
-  margin: 6px 0 12px;
+  margin: 0;
 }
 .swappanel__switch {
     display: flex;
@@ -47,5 +47,6 @@
 }
 .swappanel__direction {
     display: flex;
-    align-items: center;
+    align-items: center;    
+    margin-top: 10px;
 }

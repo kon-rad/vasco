@@ -16,7 +16,7 @@ const Wallet = () => {
   return (
     <>
       {walletStatus === 'connected' && (
-        <Button onClick={disconnect}>{account?.substring(1, 18)}…</Button>
+        <Button onClick={disconnect}>{account?.substring(0, 6)}…{account?.substring(account?.length-4, account?.length)}</Button>
       )}
       {walletStatus === 'disconnected' && (
         <Button onClick={connect}>connect account</Button>

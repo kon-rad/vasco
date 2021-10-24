@@ -6,6 +6,7 @@
     cursor: pointer;
     border: none;
     color: var(--text);
+    width: 160px;
 }
 .button:active {
     margin-top: 2px;
