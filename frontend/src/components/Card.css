@@ -27,6 +27,7 @@
     color: var(--text);
 }
 .card.active {
-    background-color: var(--mauve);
+    /* background-color: var(--mauve); */
     margin-top: 2px;
+    background-color: var(--mint-cream);
 }
