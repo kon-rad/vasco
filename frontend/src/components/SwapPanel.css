@@ -14,13 +14,14 @@
     color: var(--text-gray-1);
 }
 .swappanel__sub {
-    width: 120px;
+    width: 180px;
     display: flex;
     flex-direction: column;
 }
 .swappanel__sub h3 {
   color: var(--text);
   margin: 0;
+  font-size: 28px;
 }
 .swappanel__switch {
     display: flex;
